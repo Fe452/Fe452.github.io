@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Legend of Zelda: Linha do Tempo</title>
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        /* Utility Classes - Tailwind Style */
+        .w-full { width: 100%; }
+        .h-auto { height: auto; }
+        .min-h-16 { min-height: 4rem; }
+        .bg-blue-600 { background-color: #2563eb; }
+        .bg-green-600 { background-color: #16a34a; }
+        .border { border-width: 1px; }
+        .border-gray-800 { border-color: #1f2937; }
+        .p-4 { padding: 1rem; }
+        .m-0 { margin: 0; }
+        .flex { display: flex; }
+        .flex-wrap { flex-wrap: wrap; }
+        .justify-center { justify-content: center; }
+        .items-center { align-items: center; }
+        .gap-4 { gap: 1rem; }
+        .list-none { list-style: none; }
+        .text-white { color: white; }
+        .no-underline { text-decoration: none; }
+        .px-3 { padding-left: 0.75rem; padding-right: 0.75rem; }
+        .py-2 { padding-top: 0.5rem; padding-bottom: 0.5rem; }
+        .rounded { border-radius: 0.25rem; }
+        .bg-white-10 { background-color: rgba(255, 255, 255, 0.1); }
+        .hover-bg-white-30:hover { background-color: rgba(255, 255, 255, 0.3); }
+        .transition { transition: all 0.3s ease; }
+        .inline-block { display: inline-block; }
+        
+        /* Aplicação das classes */
+        .nav-container {
+            width: 100%;
+            min-height: 4rem;
+            background-color: #16a34a;
+            border: 1px solid #1f2937;
+            padding: 1rem;
+            margin: 0;
+        }
+        
+        .nav-menu {
+            margin: 0;
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+        }
+        
+        .nav-item {
+            display: inline;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .nav-link {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 0.75rem;
+            border-radius: 0.25rem;
+            background-color: rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+            display: inline-block;
+        }
+        
+        .nav-link:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <!-- Menu de Navegação com classes utilitárias -->
+    <div class="nav-container">
+        <nav>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="introducao.html" class="nav-link">Introdução</a></li>
+                <li class="nav-item"><a href="periodo-1.html" class="nav-link">Era da Prosperidade</a></li>
+                <li class="nav-item"><a href="periodo-2.html" class="nav-link">Era da Lenda</a></li>
+                <li class="nav-item"><a href="periodo-3.html" class="nav-link">Era do Herói</a></li>
+                <li class="nav-item"><a href="periodo-4.html" class="nav-link">Era do Declínio</a></li>
+                <li class="nav-item"><a href="periodo-5.html" class="nav-link">Era do Despertar</a></li>
+                <li class="nav-item"><a href="galeria.html" class="nav-link">Galeria</a></li>
+                <li class="nav-item"><a href="tabela.html" class="nav-link">Tabela Comparativa</a></li>
+                <li class="nav-item"><a href="sobre.html" class="nav-link">Sobre</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Cabeçalho com título principal -->
+    <header>
+        <h1>The Legend of Zelda: Linha do Tempo</h1>
+        <p>Explore a rica história e evolução de uma das séries mais icônicas dos videogames</p>
+    </header>
+
+    <main>
+        <!-- Seção de boas-vindas -->
+        <section>
+            <h2>Bem-vindo à Linha do Tempo de Hyrule</h2>
+            <p>Esta linha do tempo apresenta a complexa cronologia do universo de The Legend of Zelda, uma das franquias mais amadas da Nintendo. A série começou em 1986 e desde então cativou milhões de jogadores ao redor do mundo com suas histórias épicas, personagens memoráveis e jogabilidade inovadora.</p>
+            
+            <h3>Principais Eras da Cronologia:</h3>
+            <ul>
+                <li>Era da Prosperidade</li>
+                <li>Era da Lenda</li>
+                <li>Era do Herói</li>
+                <li>Era do Declínio</li>
+                <li>Era do Despertar</li>
+            </ul>
+            
+            <p>Navegue pelo menu acima para explorar cada era em detalhes!</p>
+        </section>
+        
+        <!-- Seção de destaques -->
+        <section>
+            <h2>Destaques da Série</h2>
+            <p>The Legend of Zelda é conhecida por:</p>
+            <ul>
+                <li>Seu protagonista corajoso, Link</li>
+                <li>A princesa sábia, Zelda</li>
+                <li>O vilão icônico, Ganondorf</li>
+                <li>Mundos expansivos para explorar</li>
+                <li>Quebra-cabeças desafiadores</li>
+                <li>Trilogias temporais interconectadas</li>
+            </ul>
+        </section>
+        
+        <!-- Prévia dos períodos -->
+        <section>
+            <h2>Visão Geral das Eras</h2>
+            
+            <article>
+                <h3>Era da Prosperidade</h3>
+                <p>Período inicial onde a Triforce permanece intacta e Hyrule experimenta paz e desenvolvimento.</p>
+                <a href="periodo-1.html">Saiba mais</a>
+            </article>
+            
+            <article>
+                <h3>Era da Lenda</h3>
+                <p>Era marcada pelo surgimento de Ganondorf e sua busca pelo poder da Triforce.</p>
+                <a href="periodo-2.html">Saiba mais</a>
+            </article>
+            
+            <article>
+                <h3>Era do Herói</h3>
+                <p>Período onde Link emerge para enfrentar as forças do mal e restaurar a paz em Hyrule.</p>
+                <a href="periodo-3.html">Saiba mais</a>
+            </article>
+            
+            <article>
+                <h3>Era do Declínio</h3>
+                <p>Tempo de escuridão onde Hyrule enfrenta grandes desafios e ameaças existenciais.</p>
+                <a href="periodo-4.html">Saiba mais</a>
+            </article>
+            
+            <article>
+                <h3>Era do Despertar</h3>
+                <p>Renascimento de Hyrule com novos heróis e o despertar de poderes adormecidos.</p>
+                <a href="periodo-5.html">Saiba mais</a>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Trabalho acadêmico para a disciplina de Programação Web I - Instituto Federal do Sul de Minas</p>
+        <p>Desenvolvido como parte da avaliação do primeiro trabalho prático</p>
+    </footer>
+</body>
+</html>
