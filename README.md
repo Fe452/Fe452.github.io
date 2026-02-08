@@ -1,2 +1,89 @@
 # Fe452.github.io
-Github pages test
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Era da Prosperidade - Linha do Tempo de Zelda</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="introducao.html">Introdução</a></li>
+            <li><a href="periodo-1.html">Era da Prosperidade</a></li>
+            <li><a href="periodo-2.html">Era da Lenda</a></li>
+            <li><a href="periodo-3.html">Era do Herói</a></li>
+            <li><a href="periodo-4.html">Era do Declínio</a></li>
+            <li><a href="periodo-5.html">Era do Despertar</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="tabela.html">Tabela Comparativa</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Era da Prosperidade</h1>
+        <p>Skyward Sword → Minish Cap → Four Swords → Ocarina of Time</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>A Criação de Hyrule</h2>
+            <p>A Era da Prosperidade representa o início da cronologia de Zelda, onde os fundamentos de Hyrule são estabelecidos e a Triforce é criada pelas Deusas Douradas: Din, Nayru e Farore.</p>
+            
+            <p>Em Skyward Sword, acompanhamos a origem da Master Sword e a primeira encarnação de Link, Zelda e Demise, o ancestral de Ganon. Este jogo estabelece o ciclo de reencarnação que permeia toda a série.</p>
+            
+            <p>Os eventos desta era são marcados pela prosperidade e desenvolvimento de Hyrule, com a estabilização do reino e o estabelecimento da linhagem real que governaria o país por séculos.</p>
+            
+            <h3>Fatos Importantes:</h3>
+            <ul>
+                <li>Criação da Triforce pelas Deusas Douradas</li>
+                <li>Fundamento do Reino de Hyrule</li>
+                <li>Primeira aparição de Link e Zelda</li>
+                <li>Criação da Master Sword (Espada Mestra)</li>
+                <li>Estabelecimento da linhagem real de Hyrule</li>
+                <li>Origem da maldição de Demise</li>
+                <li>Nascimento das diversas raças de Hyrule</li>
+                <li>Estabelecimento do Tempo do Carnival</li>
+            </ul>
+            
+            
+            <h3>Linha do Tempo Detalhada</h3>
+            <table>
+                <tr>
+                    <th>Evento</th>
+                    <th>Jogo</th>
+                    <th>Significado</th>
+                </tr>
+                <tr>
+                    <td>Criação do mundo</td>
+                    <td>Skyward Sword</td>
+                    <td>As Deusas Douradas criam Hyrule e a Triforce</td>
+                </tr>
+                <tr>
+                    <td>Batalha contra Demise</td>
+                    <td>Skyward Sword</td>
+                    <td>Primeira aparição de Link e origem da Master Sword</td>
+                </tr>
+                <tr>
+                    <td>Fundamento de Hyrule</td>
+                    <td>Minish Cap</td>
+                    <td>Estabelecimento do reino e da linhagem real</td>
+                </tr>
+            </table>
+        </section>
+        
+        <nav>
+            <p>
+                <a href="introducao.html">Anterior</a> | 
+                <a href="periodo-2.html">Próximo</a> | 
+                <a href="index.html">Início</a>
+            </p>
+        </nav>
+    </main>
+
+    <
+</body>
+
+</html>
